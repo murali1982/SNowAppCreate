@@ -52,7 +52,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-09-24 08:40:18</sys_created_on>
-        <sys_id>778ecf1c0fe50300e89b87ece1050e0f</sys_id>
+        <sys_id>63e093100f290300e89b87ece1050eb5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Barcode</sys_name>
         <sys_package display_value="Meeting Room" source="x_108814_meeting_r">9b047a030f110300e89b87ece1050ee4</sys_package>
@@ -60,7 +60,7 @@
         <sys_scope display_value="Meeting Room">9b047a030f110300e89b87ece1050ee4</sys_scope>
         <sys_update_name>sys_dictionary_x_108814_meeting_r_rooms_barcode</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-09-28 01:28:59</sys_updated_on>
+        <sys_updated_on>2017-09-28 01:39:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
