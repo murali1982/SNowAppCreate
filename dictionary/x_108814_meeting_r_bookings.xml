@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Bookings" max_length="40" name="x_108814_meeting_r_bookings" sizeclass="6" type="collection">
+    <element extends="task" label="Bookings" max_length="40" name="x_108814_meeting_r_bookings" type="collection">
         <element label="Employee" max_length="40" name="employee" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_2" type="string"/>
     </element>
