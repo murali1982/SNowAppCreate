@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Rooms" language="en" table="x_108814_meeting_r_rooms">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Rooms</label>
+            <language>en</language>
+            <name>x_108814_meeting_r_rooms</name>
+            <plural>Rooms</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-24 02:21:42</sys_created_on>
+            <sys_id>b844f2870f110300e89b87ece1050eee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Rooms</sys_name>
+            <sys_package display_value="Meeting Room" source="x_108814_meeting_r">9b047a030f110300e89b87ece1050ee4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Meeting Room">9b047a030f110300e89b87ece1050ee4</sys_scope>
+            <sys_update_name>sys_documentation_x_108814_meeting_r_rooms__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-24 02:21:42</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

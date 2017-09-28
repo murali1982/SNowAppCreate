@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Rooms" max_length="40" name="x_108814_meeting_r_rooms" type="collection">
+        <element label="Barcode" max_length="40" name="barcode" type="string"/>
+        <element hint="test" label="Room level" max_length="40" name="room_level" type="string"/>
+    </element>
+</database>
