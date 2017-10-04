@@ -8,18 +8,18 @@
         <action_query>false</action_query>
         <action_update>false</action_update>
         <active>true</active>
-        <add_message>true</add_message>
+        <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_108814_meeting_r_bookings</collection>
+        <collection/>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
-        <message><![CDATA[<p>testdhdfhdhdhdhfdhd test Git hub 2222 ddd as</p>]]></message>
-        <name>Test Scratchpad BR</name>
+        <message/>
+        <name>Test REst</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -30,26 +30,38 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	g_scratchpad.prop1 = "Blahblah";
+var request = new sn_ws.RESTMessageV2();
+request.setEndpoint('https://dev14059.service-now.com/api/now/table/incident?sysparm_query=active%3Dtrue%5Enumber%3DINC0000059&sysparm_limit=1');
+request.setHttpMethod('GET');
+
+//Eg. UserName="admin", Password="admin" for this code sample.
+var user = 'admin';
+var password = 'admin';
+
+request.setBasicAuth(user,password);
+request.setRequestHeader("Accept","application/json");
+
+var response = request.execute();
+gs.info(response.getBody());
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-09-27 12:23:44</sys_created_on>
+        <sys_created_on>2017-10-02 02:20:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>901a58180f610300e89b87ece1050ebd</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Test Scratchpad BR</sys_name>
+        <sys_id>c92004310f614300e89b87ece1050e3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test REst</sys_name>
         <sys_overrides/>
         <sys_package display_value="Meeting Room" source="x_108814_meeting_r">9b047a030f110300e89b87ece1050ee4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Meeting Room">9b047a030f110300e89b87ece1050ee4</sys_scope>
-        <sys_update_name>sys_script_901a58180f610300e89b87ece1050ebd</sys_update_name>
+        <sys_update_name>sys_script_c92004310f614300e89b87ece1050e3b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-09-28 02:24:49</sys_updated_on>
+        <sys_updated_on>2017-10-02 02:20:01</sys_updated_on>
         <template/>
-        <when>before_display</when>
+        <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=901a58180f610300e89b87ece1050ebd"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c92004310f614300e89b87ece1050e3b"/>
 </record_update>

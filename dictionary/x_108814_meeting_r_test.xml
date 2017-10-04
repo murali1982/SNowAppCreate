@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="test" max_length="40" name="x_108814_meeting_r_test" type="collection">
+        <element attributes="import_attribute_name=Asset,edge_encryption_enabled=true" label="Asset" max_length="40" name="u_asset" type="string"/>
+        <element attributes="import_attribute_name=Password,edge_encryption_enabled=true" label="Password" max_length="40" name="u_password" type="string"/>
+    </element>
+</database>

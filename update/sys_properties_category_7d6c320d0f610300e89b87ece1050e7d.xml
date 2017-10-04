@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Sys Prop Test</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-30 08:05:50</sys_created_on>
+        <sys_id>7d6c320d0f610300e89b87ece1050e7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys Prop Test</sys_name>
+        <sys_package display_value="Meeting Room" source="x_108814_meeting_r">9b047a030f110300e89b87ece1050ee4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meeting Room">9b047a030f110300e89b87ece1050ee4</sys_scope>
+        <sys_update_name>sys_properties_category_7d6c320d0f610300e89b87ece1050e7d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-30 08:05:50</sys_updated_on>
+        <title><![CDATA[<p style="text-align: left;">Sys Prop Test</p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=7d6c320d0f610300e89b87ece1050e7d"/>
+</record_update>
